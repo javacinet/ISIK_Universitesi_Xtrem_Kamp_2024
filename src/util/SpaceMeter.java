@@ -1,5 +1,7 @@
 package util;
 
+import static util.PrintUtil.*;
+
 public class SpaceMeter {
     private final Runtime runtime = Runtime.getRuntime();
 
@@ -23,18 +25,18 @@ public class SpaceMeter {
     }
 
     public void printBytes() {
-        System.out.printf("Memory used by methodToMeasure in bytes: %d\n", memoryUsed);
+        printMemory("Memory used by methodToMeasure in bytes: %d\n", memoryUsed);
     }
 
     public void printKBytes() {
-        System.out.printf("Memory used by methodToMeasure in kilobytes: %.2f KB\n",  ((double) memoryUsed / 1024));
+        printMemory("Memory used by methodToMeasure in kilobytes: %.2f KB\n",  ((double) memoryUsed / 1024));
     }
 
     public void printMBytes() {
-        System.out.printf("Memory used by methodToMeasure in megabytes: %.2f MB\n",  ((double) memoryUsed / (1024 * 1024)));
+        printMemory("Memory used by methodToMeasure in megabytes: %.2f MB\n",  ((double) memoryUsed / (1024 * 1024)));
     }
 
     public void printGBytes() {
-        System.out.printf("Memory used by methodToMeasure in gigabytes: %.2f GB\n",  ((double) memoryUsed / (1024 * 1024 * 1024)));
+        printMemory("Memory used by methodToMeasure in gigabytes: %.2f GB\n",  ((double) memoryUsed / (1024 * 1024 * 1024)));
     }
 }

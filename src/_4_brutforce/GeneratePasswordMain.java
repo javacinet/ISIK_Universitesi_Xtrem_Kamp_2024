@@ -1,4 +1,4 @@
-package brutforce;
+package _4_brutforce;
 
 import util.FileUtil;
 import util.PasswordGenerator;

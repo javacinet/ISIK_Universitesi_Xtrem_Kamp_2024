@@ -1,4 +1,7 @@
 package util;
+
+import static util.PrintUtil.*;
+
 public class Timer {
 
     private long start;
@@ -16,7 +19,7 @@ public class Timer {
     }
 
     public void print() {
-        System.out.printf("TIMER: Process takes %.2f seconds\n", elapsedTime);
+        printTimer("TIMER: Process takes %.2f seconds\n", elapsedTime);
     }
 
     public void stopAndPrint() {
