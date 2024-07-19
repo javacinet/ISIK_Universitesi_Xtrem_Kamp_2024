@@ -25,6 +25,9 @@ public class PrintUtil {
     // Reset code
     private static String reset = "\u001B[0m";
 
+    public static void printText(String format, Object... objects) {
+        printText(String.format(format, objects));
+    }
 
     public static void printText(String message) {
         System.out.println(greenText + message + reset);

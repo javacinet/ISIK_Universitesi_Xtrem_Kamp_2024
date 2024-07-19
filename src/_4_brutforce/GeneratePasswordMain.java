@@ -16,7 +16,7 @@ public class GeneratePasswordMain {
         for (int length = 1; length <= maxLengthOfPassword; length++) {
             List<String> passwordList = PasswordGenerator.generateAllPossiblePasswordForVisibleAsciiChars(length);
             String fileName = generatedPasswordsDirectory + "password_length_" + length + ".txt";
-            FileUtil.writelistToFile(passwordList, fileName);
+            FileUtil.writeListToFile(passwordList, fileName);
             System.out.println("File created: " + fileName);
         }
     }

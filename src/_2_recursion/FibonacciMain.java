@@ -4,14 +4,14 @@ import util.Timer;
 
 import static util.PrintUtil.*;
 
-public class TestFibonacci {
+public class FibonacciMain {
     public static void main(String[] args) {
         Timer timer = new Timer();
 
-        int n = 5;
+        int n = 50;
 
         timer.start();
-        printText("Using Map: \t" + Fibonacci.fibonacciDP(n));
+        printText("Using DP: \t" + Fibonacci.fibonacciDP(n));
         timer.stopAndPrint();
 
         timer.start();
