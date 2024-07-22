@@ -1,21 +1,21 @@
 package _2_recursion;
 
-import util.Timer;
+import util.TimeMeter;
 
 import static util.PrintUtil.*;
 
 public class FibonacciMain {
     public static void main(String[] args) {
-        Timer timer = new Timer();
+        TimeMeter timeMeter = new TimeMeter();
 
         int n = 50;
 
-        timer.start();
+        timeMeter.start();
         printText("Using DP: \t" + Fibonacci.fibonacciDP(n));
-        timer.stopAndPrint();
+        timeMeter.stopAndPrint();
 
-        timer.start();
+        timeMeter.start();
         printText("Not a DP: \t" + Fibonacci.fibonacci(n));
-        timer.stopAndPrint();
+        timeMeter.stopAndPrint();
     }
 }

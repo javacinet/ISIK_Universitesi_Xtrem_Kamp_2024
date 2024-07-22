@@ -1,7 +1,7 @@
 package _1_intro;
 
 import util.SpaceMeter;
-import util.Timer;
+import util.TimeMeter;
 
 import static util.MeterUtil.*;
 
@@ -9,33 +9,33 @@ import static util.PrintUtil.*;
 
 public class StringCompare {
     public static void main(String[] args) {
-        Timer timer = new Timer();
+        TimeMeter timeMeter = new TimeMeter();
         SpaceMeter spaceMater = new SpaceMeter();
 
         int n = 100_000;
 
-        start(timer, spaceMater);
+        start(timeMeter, spaceMater);
         printText("String concatenate for size: " + n);
         concatenateString(n);
-        stopAndPrint(timer, spaceMater);
+        stopAndPrint(timeMeter, spaceMater);
 
-        start(timer, spaceMater);
+        start(timeMeter, spaceMater);
         printText("StringBuilder concatenate for size: %d", n);
         concatenateStringUsingStringBuilder(n);
-        stopAndPrint(timer, spaceMater);
+        stopAndPrint(timeMeter, spaceMater);
 
         n = 1_000_000;
 
-        start(timer, spaceMater);
+        start(timeMeter, spaceMater);
         printText("StringBuilder concatenate for size: %d", n);
         concatenateStringUsingStringBuilder(n);
-        stopAndPrint(timer, spaceMater);
+        stopAndPrint(timeMeter, spaceMater);
 
         n = 1_000_000_000;
-        start(timer, spaceMater);
+        start(timeMeter, spaceMater);
         printText("StringBuilder concatenate for size: %d", n);
         concatenateStringUsingStringBuilder(n);
-        stopAndPrint(timer, spaceMater);
+        stopAndPrint(timeMeter, spaceMater);
 
     }
 

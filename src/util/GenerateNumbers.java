@@ -2,7 +2,9 @@ package util;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.Stack;
+import java.util.stream.IntStream;
 
 public class GenerateNumbers {
 
@@ -127,4 +129,9 @@ public class GenerateNumbers {
         }
     }
 
+    public static int[] generateRandomNumbers(int length, int upper) {
+        return IntStream.generate(() -> (int) (Math.random() * upper))
+                .limit(length)
+                .toArray();
+    }
 }

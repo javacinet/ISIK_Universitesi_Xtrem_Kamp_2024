@@ -2,7 +2,7 @@ package util;
 
 import static util.PrintUtil.*;
 
-public class Timer {
+public class TimeMeter {
 
     private long start;
     private double elapsedTime;

@@ -1,10 +1,9 @@
 package _3_complexity;
 
 import util.*;
-import util.Timer;
+import util.TimeMeter;
 
 import java.util.*;
-import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 import static util.PrintUtil.printText;
@@ -12,18 +11,18 @@ import static util.PrintUtil.printText;
 public class CompareSearchAlgorithmsTimeComplexities {
 
     public static void main(String[] args) {
-        Timer timer = new Timer();
+        TimeMeter timeMeter = new TimeMeter();
         SpaceMeter spaceMeter = new SpaceMeter();
 
         int n = 10_000_000;
         int length = 100;
 
-        MeterUtil.start(timer, spaceMeter);
+        MeterUtil.start(timeMeter, spaceMeter);
 //        printText("Generate random string array");
 //        String[] array = generateRandomStringArray(n, length);
         printText("Read generated strings from a file");
         String[] array = FileUtil.readArrayFromFile("data/generatedString.txt");
-        MeterUtil.stopAndPrint(timer, spaceMeter);
+        MeterUtil.stopAndPrint(timeMeter, spaceMeter);
 
 //        FileUtil.writeArrayToFile(array, "data/generatedString.txt");
 
@@ -65,21 +64,21 @@ public class CompareSearchAlgorithmsTimeComplexities {
 
     private static void searchInCollection(String[] keys, Supplier<Collection<String>> collectionCreator, Class clazz) {
         System.gc();
-        Timer timer = new Timer();
+        TimeMeter timeMeter = new TimeMeter();
         SpaceMeter spaceMeter = new SpaceMeter();
 
-        MeterUtil.start(timer, spaceMeter);
+        MeterUtil.start(timeMeter, spaceMeter);
         printText("Create collection");
         printText("Adding array into " + clazz);
         Collection<String> collection = collectionCreator.get();
-        MeterUtil.stopAndPrint(timer, spaceMeter);
+        MeterUtil.stopAndPrint(timeMeter, spaceMeter);
 
-        MeterUtil.start(timer, spaceMeter);
+        MeterUtil.start(timeMeter, spaceMeter);
         printText("Search in " + collection.getClass());
         for (String key : keys) {
             collection.contains(key);
         }
-        MeterUtil.stopAndPrint(timer, spaceMeter);
+        MeterUtil.stopAndPrint(timeMeter, spaceMeter);
     }
 
     private static String[] findKeys(String[] array, int length) {

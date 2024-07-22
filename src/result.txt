@@ -1,0 +1,68 @@
+
+Generate random string array
+TIMER: Process takes 17.63 seconds
+Memory used by methodToMeasure in megabytes: 2706.12 MB
+Memory used by methodToMeasure in gigabytes: 2.64 GB
+Print first string ⇰櫙劜败샅⮉剧䂖ę囆ۑﴂ≨蚪枘ᔼ紞툯햛䩀土㏡ཌྷ㒼愒겥庣犗䓨傎⺮ᬶ釃箐옵蕙韜命ڨ駟↘⭍㳗૑覧㓦쀇靻揔뱄ᑼﬁ䵇۳芌Ꮀ췈吹흰㣽慵禩㪺䩻펅빝ﾸ뵥◯?쌸ꋑ裺ꯍ呵㸧쯤浺濘?䧚曤㺣豤颙顫ȿ갘
+Adding array into ArrayList
+TIMER: Process takes 0.00 seconds
+Memory used by methodToMeasure in megabytes: 81.00 MB
+Memory used by methodToMeasure in gigabytes: 0.08 GB
+Search in ArrayList
+TIMER: Process takes 6.28 seconds
+Memory used by methodToMeasure in megabytes: 0.00 MB
+Memory used by methodToMeasure in gigabytes: 0.00 GB
+Adding array into LinkedList
+TIMER: Process takes 0.04 seconds
+Memory used by methodToMeasure in megabytes: 269.00 MB
+Memory used by methodToMeasure in gigabytes: 0.26 GB
+Search in LinkedList
+TIMER: Process takes 8.10 seconds
+Memory used by methodToMeasure in megabytes: 0.00 MB
+Memory used by methodToMeasure in gigabytes: 0.00 GB
+
+
+Read generated strings from a file
+TIMER: Process takes 4.97 seconds
+Memory used by methodToMeasure in megabytes: 2471.12 MB
+Memory used by methodToMeasure in gigabytes: 2.41 GB
+Print first string ⇰櫙劜败샅⮉剧䂖ę囆ۑﴂ≨蚪枘ᔼ紞툯햛䩀土㏡ཌྷ㒼愒겥庣犗䓨傎⺮ᬶ釃箐옵蕙韜命ڨ駟↘⭍㳗૑覧㓦쀇靻揔뱄ᑼﬁ䵇۳芌Ꮀ췈吹흰㣽慵禩㪺䩻펅빝ﾸ뵥◯?쌸ꋑ裺ꯍ呵㸧쯤浺濘?䧚曤㺣豤颙顫ȿ갘
+Adding array into ArrayList
+TIMER: Process takes 0.01 seconds
+Memory used by methodToMeasure in megabytes: 81.00 MB
+Memory used by methodToMeasure in gigabytes: 0.08 GB
+Search in ArrayList
+TIMER: Process takes 5.35 seconds
+Memory used by methodToMeasure in megabytes: 0.00 MB
+Memory used by methodToMeasure in gigabytes: 0.00 GB
+Adding array into LinkedList
+TIMER: Process takes 0.06 seconds
+Memory used by methodToMeasure in megabytes: 269.00 MB
+Memory used by methodToMeasure in gigabytes: 0.26 GB
+Search in LinkedList
+TIMER: Process takes 6.49 seconds
+Memory used by methodToMeasure in megabytes: 0.00 MB
+Memory used by methodToMeasure in gigabytes: 0.00 GB
+
+
+Read generated strings from a file
+TIMER: Process takes 4.91 seconds
+Memory used by methodToMeasure in megabytes: 2577.12 MB
+Memory used by methodToMeasure in gigabytes: 2.52 GB
+Print first string ⇰櫙劜败샅⮉剧䂖ę囆ۑﴂ≨蚪枘ᔼ紞툯햛䩀土㏡ཌྷ㒼愒겥庣犗䓨傎⺮ᬶ釃箐옵蕙韜命ڨ駟↘⭍㳗૑覧㓦쀇靻揔뱄ᑼﬁ䵇۳芌Ꮀ췈吹흰㣽慵禩㪺䩻펅빝ﾸ뵥◯?쌸ꋑ裺ꯍ呵㸧쯤浺濘?䧚曤㺣豤颙顫ȿ갘
+Adding array into ArrayList
+TIMER: Process takes 0.00 seconds
+Memory used by methodToMeasure in megabytes: 81.00 MB
+Memory used by methodToMeasure in gigabytes: 0.08 GB
+Search in ArrayList
+TIMER: Process takes 6.88 seconds
+Memory used by methodToMeasure in megabytes: 0.00 MB
+Memory used by methodToMeasure in gigabytes: 0.00 GB
+Adding array into LinkedList
+TIMER: Process takes 0.05 seconds
+Memory used by methodToMeasure in megabytes: 269.00 MB
+Memory used by methodToMeasure in gigabytes: 0.26 GB
+Search in LinkedList
+TIMER: Process takes 8.10 seconds
+Memory used by methodToMeasure in megabytes: 0.00 MB
+Memory used by methodToMeasure in gigabytes: 0.00 GB
